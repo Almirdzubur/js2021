@@ -118,7 +118,7 @@ Tips på regex-testare: https://regex101.com/ (välj ECMAScript)
 Mozillas egen referens: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
 I praktiken är det bra att veta att tekniken finns, de vanligaste uttrycken (t.ex. mailadress, namn eller postnummer) går att googla sig till
 */
-// Identifierar ord som börjar på "a"
+// Funktion för att testa regex
 let regexTest = function(reg, str) {
     // anropa metoden "test" för att kolla att textsträngen str matchar formatet reg
     if (reg.test(str)) {
