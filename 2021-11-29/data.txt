@@ -1,0 +1,1 @@
+Data som läses in från fil.
