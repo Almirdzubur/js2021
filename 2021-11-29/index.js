@@ -36,7 +36,7 @@ app.get("/undersida", function(req, res) {
     res.send("Välkommen till undersidan!");
 });
 
-// filhantering
+// filhantering 
 const fs = require("fs");   // eventuellt behöver ni köra "npm install fs"
 app.get("/filhantering", function(req, res) {
     fs.readFile("data.txt", function(err, data) {   // första argumentet är filnamnet, andra argumentet är en funktion (callback)
