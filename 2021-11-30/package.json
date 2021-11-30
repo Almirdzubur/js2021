@@ -1,0 +1,21 @@
+{
+  "name": "2021-11-30",
+  "version": "1.0.0",
+  "description": "Lektion 2021-11-30 mer om Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "filhantering",
+    "och",
+    "formulärhantering",
+    "med",
+    "Node"
+  ],
+  "author": "Holger",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
