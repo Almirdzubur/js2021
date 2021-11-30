@@ -27,6 +27,7 @@ app.get("/besokare", (req, res) => {
         //else console.log(err);  // null om inget fel inträffat
         let antal = Number(data.toString());
         antal++;
+        antal = antal.toString();
         fs.writeFile("besokare.txt", antal, (err) => {
             if (err) throw err;
         });
